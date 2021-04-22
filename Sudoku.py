@@ -1,5 +1,3 @@
-SQAURE_SIZE = 3
-
 test_field = [
 [1, 0, 0, 9, 0, 4, 0, 8, 2],
 [0, 5, 2, 6, 0, 0, 3, 0, 0],
@@ -10,11 +8,15 @@ test_field = [
 [0, 8, 6, 0, 3, 5, 2, 0, 9],
 [5, 0, 9, 0, 0, 2, 1, 3, 7],
 [0, 3, 0, 4, 9, 7, 0, 0, 8]]
+# uncomment this smaller sudoku field and change the SQUARE_SIZE to 2 (becuase it's a 2x2)
+# so you can solve other sizes of sudokus.
 # [0, 3, 0, 4],
 # [2, 0, 1, 3],
 # [4, 0, 0, 1],
 # [0, 0, 0, 0]
 # ]
+
+SQAURE_SIZE = 3
 
 def display(field):
 	for i in range(len(field)):
